@@ -6,6 +6,7 @@ In this project, a StarNotary DApp are implemented and deployed into the Rinkeby
 **ERC-721 Token Symbol**: VST  
 **Token Address**:  0xb282000DD02c541D08e471109b7ce9B65c757FBB
 
+More information to the contract could be found in [ETHSCAN](https://goerli.etherscan.io/address/0xb282000dd02c541d08e471109b7ce9b65c757fbb)
 
 ### Dependencies
 For this project, you will need to have:

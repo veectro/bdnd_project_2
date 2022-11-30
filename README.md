@@ -4,7 +4,9 @@ In this project, a StarNotary DApp are implemented and deployed into the Rinkeby
 
 **ERC-721 Token Name**: Veectro Star Token  
 **ERC-721 Token Symbol**: VST  
-**Token Address**:  0xb282000DD02c541D08e471109b7ce9B65c757FBB
+**Token Address**:  0xb282000DD02c541D08e471109b7ce9B65c757FBB  
+**Truffle version** : v5.5.28  
+**OpenZepellin version** : v2.5.0  
 
 More information to the contract could be found in [ETHSCAN](https://goerli.etherscan.io/address/0xb282000dd02c541d08e471109b7ce9b65c757fbb)
 

@@ -55,7 +55,9 @@ module.exports = {
 
     goerli: {
       provider: () => new HDWalletProvider(mnemonic, `https://goerli.infura.io/v3/${infuraKey}`),
-      network_id: 2111   // This network is yours, in the cloud.
+      network_id: 5,
+      gas: 4000000,
+      gasPrice: 3900000000
     }
     // Another network with more advanced options...
     // advanced: {

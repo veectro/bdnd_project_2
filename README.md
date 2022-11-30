@@ -1,9 +1,10 @@
 # ND1309 C2 Ethereum Smart Contracts, Tokens and Dapps - Project Starter 
-**PROJECT: Decentralized Star Notary Service Project** - For this project, you will create a DApp by adding functionality with your smart contract and deploy it on the public testnet.
+**PROJECT: Decentralized Star Notary Service Project** 
+In this project, a StarNotary DApp are implemented and deployed into the Rinkeby Network.
 
-### ToDo
-This Starter Code has already implemented the functionalities you implemented in the StarNotary (Version 2) exercise, and have comments in all the files you need to implement your tasks.
-
+**ERC-721 Token Name**: Veectro Star Token  
+**ERC-721 Token Symbol**: VST  
+**Token Address**:  0xb282000DD02c541D08e471109b7ce9B65c757FBB
 
 
 ### Dependencies
@@ -24,7 +25,7 @@ npm uninstall -g truffle
 # Install
 npm install -g truffle
 # Specify a particular version
-npm install -g truffle@5.0.2
+npm install -g truffle@5.5.28
 # Verify the version
 truffle version
 ```
@@ -64,7 +65,12 @@ npm install
 ```
 
 
-2. Start Truffle by running
+2. Start Truffle
+Make sure that the `.secret` are located in the root folder
+```bash
+touch .secret
+echo moo > .secret
+```  
 ```bash
 # For starting the development console
 truffle develop
@@ -127,12 +133,3 @@ compilers: {
     // docker: true,
     // ...
 ```
-
-## Raise a PR or report an Issue
-1. Feel free to raise a [Pull Request](https://github.com/udacity/nd1309-p2-Decentralized-Star-Notary-Service-Starter-Code/pulls) if you find a bug/scope of improvement in the current repository. 
-
-2. If you have suggestions or facing issues, you can log in issue. 
-
----
-
-Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip)
